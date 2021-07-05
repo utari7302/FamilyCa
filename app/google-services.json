@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1008591916245",
+    "project_id": "family-ca",
+    "storage_bucket": "family-ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1008591916245:android:e512b2f70174619767665c",
+        "android_client_info": {
+          "package_name": "com.usama.familyca"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1008591916245-8imiihhm8ts2ki62p5d7cj4bddccpb7q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_H4J-xkHT6RnfGzyia901oZz7gYyPmaQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1008591916245-8imiihhm8ts2ki62p5d7cj4bddccpb7q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

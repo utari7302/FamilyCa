@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.ParentScheduleFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/parentSchedule"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/schedule_item_layout" />
+
+    <TextView
+        android:id="@+id/parentNothingToDo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Nothing to do!"
+        android:textColor="@color/color_secondary"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/AddNewTask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_margin="32dp"
+        android:background="@drawable/circle"
+        android:src="@drawable/ic_baseline_add_24" />
+
+
+</RelativeLayout>
